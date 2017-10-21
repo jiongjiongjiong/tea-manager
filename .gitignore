@@ -24,11 +24,5 @@
 hs_err_pid*
 
 
-pom.xml
-src/
-tea-manager-dao/
-tea-manager-interface/
-tea-manager-pojo/
-tea-manager-service/
-tea-manager-web/
+.idea/
 tea-manager.iml

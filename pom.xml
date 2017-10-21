@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.zc</groupId>
+        <artifactId>tea-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.zc</groupId>
+    <artifactId>tea-manager</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>tea-manager-pojo</module>
+        <module>tea-manager-dao</module>
+        <module>tea-manager-interface</module>
+        <module>tea-manager-service</module>
+        <module>tea-manager-web</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.zc</groupId>
+            <artifactId>tea-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.tomcat.maven</groupId>-->
+                <!--<artifactId>tomcat7-maven-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<path>/</path>-->
+                    <!--<port>8080</port>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
