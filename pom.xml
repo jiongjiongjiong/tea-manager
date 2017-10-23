@@ -18,7 +18,6 @@
         <module>tea-manager-dao</module>
         <module>tea-manager-interface</module>
         <module>tea-manager-service</module>
-        <module>tea-manager-web</module>
     </modules>
     <dependencies>
         <dependency>
