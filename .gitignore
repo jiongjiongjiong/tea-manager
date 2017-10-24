@@ -26,3 +26,16 @@ hs_err_pid*
 
 .idea/
 tea-manager.iml
+tea-manager-service/tea-manager-service.iml
+tea-manager-dao/target/
+tea-manager-interface/target/
+tea-manager-pojo/target/
+tea-manager-service/target/
+src/
+tea-manager-dao/src/main/resources/
+tea-manager-dao/src/test/
+tea-manager-interface/src/main/resources/
+tea-manager-interface/src/test/
+tea-manager-pojo/src/main/resources/
+tea-manager-pojo/src/test/
+tea-manager-service/src/test/

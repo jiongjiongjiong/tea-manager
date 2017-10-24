@@ -3,9 +3,9 @@ com\zc\tea\mapper\TbOrderMapper.class
 com\zc\tea\mapper\TbContentMapper.class
 com\zc\tea\mapper\TbContentCategoryMapper.class
 com\zc\tea\mapper\TbItemMapper.class
+com\zc\tea\mapper\TbOrderShippingMapper.class
+com\zc\tea\mapper\TbUserMapper.class
 com\zc\tea\mapper\TbItemDescMapper.class
 com\zc\tea\mapper\TbItemParamMapper.class
-com\zc\tea\mapper\TbOrderShippingMapper.class
 com\zc\tea\mapper\TbItemCatMapper.class
 com\zc\tea\mapper\TbItemParamItemMapper.class
-com\zc\tea\mapper\TbUserMapper.class
